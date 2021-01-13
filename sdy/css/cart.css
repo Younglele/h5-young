@@ -1,0 +1,177 @@
+.content {
+  margin-top: 30px;
+}
+.header{width: 1480px;
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+  background-color:#eee;
+  display: flex;
+  justify-content: space-between;
+  }
+  .header li{cursor: pointer;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  text-align: center;
+  }
+  .header li:hover{background-color: #fff;}
+  .header .header-l{
+    display: flex;
+  }
+  .header .header-l li{
+    margin-right: 10px;
+  }
+  .header .header-r{
+    display: flex;
+  }
+  .header .header-r li{
+    width: 100px;
+   margin:0 10px;
+  }
+  .header .mytb-erji{display: none;background-color: #fff;height: 70px;}
+  .header .shoucang-erji{display: none;background-color: #fff;height: 70px;}
+  .header .connect-erji{display: none;background-color: #fff;height: 70px;}
+  .header .mytb-erji a{display: block;height: 35px;line-height: 35px;}
+  .header .mytb-erji a:hover{background-color: blanchedalmond;}
+  .header .shoucang-erji a{display: block;height: 35px;line-height: 35px;}
+  .header .shoucang-erji a:hover{background-color: blanchedalmond;}
+  .header .connect-erji a{display: block;height: 35px;line-height: 35px;}
+  .header .connect-erji a:hover{background-color: blanchedalmond;}
+  .headbg{width: 100%;
+  height: 70px;
+  background-image:url(../images/TBindexhdbg.jpg);
+  background-repeat: no-repeat ;
+  background-position: center;
+  background-color: #fd5632;
+  cursor: pointer;
+  }
+
+  .allgoods{margin-left: 300px;
+    margin-top: 100px;
+    width:800px;
+  height: 80px;
+display: flex;
+justify-content: space-evenly;
+}
+  .allgoods span{
+    text-align: center;
+  width: 200px;
+  font-size: 24px;
+  color: #000;
+  line-height: 80px;
+  cursor: pointer;
+  }
+  .allgoods span:hover{
+   color: red;
+   border-bottom:2px solid red ;
+  }
+.content .selectAll {
+  font-size: 20px;
+  position: relative;
+}
+
+.content .selectAll > input {
+  width: 20px;
+  height: 20px;
+}
+
+.content .selectAll > .text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-weight: 700;
+  color: green;
+}
+
+.content .goodsList > li {
+  height: 100px;
+  padding: 10px 0;
+  display: flex;
+  border: 1px solid #333;
+  margin-bottom: 10px;
+}
+
+.content .goodsList > li:last-child {
+  margin-bottom: 0;
+}
+
+.content .goodsList > li > .select {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .goodsList > li > .goodsImg {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.content .goodsList > li > .goodsDesc {
+  width: 300px;
+  padding: 10px 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.content .goodsList > li > .goodsDesc > p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.content .goodsList > li > .price,
+.content .goodsList > li > .xiaoji {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.content .goodsList > li > .count {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .goodsList > li > .count > button {
+  width: 30px;
+  height: 30px;
+}
+
+.content .goodsList > li > .count > input {
+  width: 75px;
+  height: 33px;
+  text-align: center;
+  border: none;
+}
+
+.content .goodsList > li > .operate {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buyInfo {
+  display: flex;
+  align-items: center;
+}
+
+.buyInfo > .buyNum,
+.buyInfo > .buyMoney,
+.buyInfo > .operate {
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.buyInfo > .buyNum > span,
+.buyInfo > .buyMoney > span {
+  font-size: 30px;
+}
