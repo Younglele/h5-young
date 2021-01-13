@@ -47,7 +47,7 @@ $(function () {
           </p>
         </div>
         
-      <div class="enlarge">1</div>
+      <div class="enlarge" style="background-image:url(${ info.goods_big_logo })></div>
       </div>
       <div class="goodsInfo">
         <p class="desc">${ info.goods_name }</p>
